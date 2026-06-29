@@ -52,7 +52,7 @@ def convert_temperature(value, from_unit, to_unit):
     else:
         result = (value - 32) * 5 / 9
 
-        return {"value": round(result, 1), "unit": to_unit}
+    return {"value": round(result, 1), "unit": to_unit}
 
 
 # Tool definitions
